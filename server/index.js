@@ -1,4 +1,4 @@
-// require('dotenv').config({ debug: process.env.DEBUG });
+require('dotenv').config({ debug: process.env.DEBUG });
 const http = require('http');
 const express = require('express');
 const config = require('../src/config');
